@@ -1,0 +1,12 @@
+{
+    "editor.insertSpaces": true,
+    "editor.renderWhitespace": true,
+    "explorer.autoReveal": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 3000,
+    "files.exclude": {
+        "**/.git": true,
+        "src/**/*.js": true
+    },
+    "files.trimTrailingWhitespace": true
+}

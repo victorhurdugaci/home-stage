@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+    font-weight: 100;
+    margin: 0px;
+}
+
+.backImage {
+    position:absolute;
+
+    height:100%;
+    width:100%;
+}
