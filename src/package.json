@@ -1,0 +1,28 @@
+{
+  "name": "home-stage",
+  "version": "0.1.0",
+  "author": "Victor Hurdugaci",
+  "description": "A screensaver-like application for Raspberry Pi",
+  "keywords": [
+    "clock",
+    "raspberry pi",
+    "screensaver",
+    "slideshow"
+  ],
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorhurdugaci/home-stage.git"
+  },
+  "homepage": "https://github.com/victorhurdugaci/home-stage",
+  "bugs": {
+    "url": "https://github.com/victorhurdugaci/home-stage/issues"
+  },
+  "dependencies": {
+    "dateformat": "^1.0.12",
+    "immutable": "^3.8.1",
+    "jquery": "^2.2.3",
+    "xml2js": "^0.4.16"
+  },
+  "main": "shell.js"
+}

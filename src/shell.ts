@@ -1,4 +1,8 @@
-/// <reference path="../../typings/main.d.ts" />
+// Copyright (c) Victor Hurdugaci (https://victorhurdugaci.com). All rights reserved.
+// Licensed  under the GNU General Public License v3.0. See `LICENSE.md` in the project root.
+
+/// <reference path="./typings/main.d.ts" />
+
 import { app, BrowserWindow, ipcMain, Menu, MenuItem } from 'electron'
 
 var stageWindow: Electron.BrowserWindow = null;

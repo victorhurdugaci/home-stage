@@ -1,12 +1,13 @@
-/// <reference path="../../../typings/main.d.ts" />
+// Copyright (c) Victor Hurdugaci (https://victorhurdugaci.com). All rights reserved.
+// Licensed  under the GNU General Public License v3.0. See `LICENSE.md` in the project root.
 
 import * as $ from 'jquery'
-import {Dimension, Position} from './properties'
+import {Dimension, Position, Size} from './properties'
 import {UIElement} from './uielement'
 
 export class TextBox extends UIElement {
     private _textColor: string;
-    private _textSize: number;
+    private _textSize: Size;
 
     private _text: string;
 
@@ -24,12 +25,12 @@ export class TextBox extends UIElement {
         this.getDomElement().css('color', newColor);
     }
 
-    public get textSize(): number {
+    public get textSize(): Size {
         return this._textSize;
     }
-    public set textSize(newSize: number) {
+    public set textSize(newSize: Size) {
         this._textSize = newSize;
-        this.getDomElement().css('font-size', newSize);
+        this.getDomElement().css('font-size', newSize.toCss());
     }
 
     public get text(): string {

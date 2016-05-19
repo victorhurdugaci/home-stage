@@ -4,10 +4,9 @@
   "ambientDependencies": {
     "github-electron": "github:DefinitelyTyped/DefinitelyTyped/github-electron/github-electron.d.ts#310c247694d7f31bd2e3198f71c55221f7c3a3c7",
     "form-data": "github:DefinitelyTyped/DefinitelyTyped/form-data/form-data.d.ts#310c247694d7f31bd2e3198f71c55221f7c3a3c7",
-    "image-size": "github:DefinitelyTyped/DefinitelyTyped/image-size/image-size.d.ts#310c247694d7f31bd2e3198f71c55221f7c3a3c7",
+    "immutable": "github:facebook/immutable-js/dist/immutable.d.ts#v3.8.1",
     "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#310c247694d7f31bd2e3198f71c55221f7c3a3c7",
     "node": "github:DefinitelyTyped/DefinitelyTyped/node/node.d.ts#310c247694d7f31bd2e3198f71c55221f7c3a3c7",
-    "request": "github:DefinitelyTyped/DefinitelyTyped/request/request.d.ts#310c247694d7f31bd2e3198f71c55221f7c3a3c7",
     "xml2js": "github:DefinitelyTyped/DefinitelyTyped/xml2js/xml2js.d.ts#310c247694d7f31bd2e3198f71c55221f7c3a3c7"
   },
   "dependencies": {
