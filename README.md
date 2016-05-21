@@ -2,7 +2,7 @@
 
 Home Stage is a screensaver-like application for Raspberry Pi. It's inspired by Chromecast's home screen.
 
-Even thought it's designed for Raspberry Pi (Raspbian), it runs on any operating system (Linux, OSX, Windows).
+Even though it's designed for Raspberry Pi (Raspbian), it runs on any operating system (Linux, OSX, Windows).
 
 Here's how it looks:
 
