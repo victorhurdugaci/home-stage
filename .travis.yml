@@ -8,3 +8,7 @@ before_install:
 
 script:
   - ./build.sh
+
+branches:
+  only:
+    - dev
